@@ -19,6 +19,7 @@ public class main {
 		PalindromeNumber pn = new PalindromeNumber();
 		System.out.println(pn.isPalindrome(0));
 		*/
-
+		RomanToInteger rti = new RomanToInteger();
+		System.out.println(rti.romanToInt("MMMCMXCIX"));
 	}
 }
