@@ -26,10 +26,18 @@ public class main {
 		System.out.println(rti.romanToInt("MMMCMXCIX"));
 		 */
 		
+		/*LongestCommonPrefix
+		 * 
 		LongestCommonPrefix lcp = new LongestCommonPrefix();
 		String[] a = {"abc", "ab"};
 		String answer = lcp.longestCommonPrefix(a);
 		System.out.println(answer);
+		 */
+		
+		/*ValidParentheses
+		ValidParentheses vp = new ValidParentheses();
+		System.out.println(vp.isValid("(())"));
+		*/
 		
 	}
 }
