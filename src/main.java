@@ -19,7 +19,17 @@ public class main {
 		PalindromeNumber pn = new PalindromeNumber();
 		System.out.println(pn.isPalindrome(0));
 		*/
-		RomanToInteger rti = new RomanToInteger();
+		
+		/*RomanToInteger
+		 * 
+		 RomanToInteger rti = new RomanToInteger();
 		System.out.println(rti.romanToInt("MMMCMXCIX"));
+		 */
+		
+		LongestCommonPrefix lcp = new LongestCommonPrefix();
+		String[] a = {"abc", "ab"};
+		String answer = lcp.longestCommonPrefix(a);
+		System.out.println(answer);
+		
 	}
 }
