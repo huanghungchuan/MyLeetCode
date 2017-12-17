@@ -39,5 +39,13 @@ public class main {
 		System.out.println(vp.isValid("(())"));
 		*/
 		
+		/*RemoveDuplicatesFromSortedArray
+		 * 
+		RemoveDuplicates rd = new RemoveDuplicates();
+		int[] test1 = {4,5,5,6};
+		System.out.println(rd.removeDuplicates(test1));
+		*/
+		
+		
 	}
 }
