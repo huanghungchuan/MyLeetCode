@@ -55,6 +55,8 @@ public class main {
 		System.out.println(is.strStr("", ""));
 		*/
 		
+		/*SearchInsertPosition
+		 * 
 		SearchInsertPosition sip = new SearchInsertPosition();
 		int[] nums = {1,3,5,6};
 		int[] nums1 = {};
@@ -64,6 +66,15 @@ public class main {
 		System.out.println(sip.searchInsert(nums, 7));
 		
 		System.out.println(sip.searchInsert(nums1, 0));
+		*/
+		
+		CountAndSay cas = new CountAndSay();
+		System.out.println(cas.countAndSay(1));
+		System.out.println(cas.countAndSay(2));
+		System.out.println(cas.countAndSay(3));
+		System.out.println(cas.countAndSay(4));
+		System.out.println(cas.countAndSay(5));
+		System.out.println(cas.countAndSay(6));
 		
 		
 	}
