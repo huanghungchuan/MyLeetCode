@@ -1,6 +1,8 @@
 
 public class ImplementStr {
 	public int strStr(String haystack, String needle) {
+		/*Version 1
+		 * 
 		if (haystack.length() < needle.length())
 			return -1;
 		if (needle.length() == 0)
@@ -9,6 +11,9 @@ public class ImplementStr {
 			if (haystack.substring(i, i + needle.length()).equals(needle))
 				return i;
 		}
-		return -1;
+		return -1;*/
+		
+		//Version 2, the runtime is same as Version 1
+		return haystack.indexOf(needle);
 	}
 }
