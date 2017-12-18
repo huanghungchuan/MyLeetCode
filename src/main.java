@@ -45,12 +45,25 @@ public class main {
 		System.out.println(rd.removeDuplicates(test1));
 		*/
 		
+		/*ImplementStr
+		 * 
 		ImplementStr is = new ImplementStr();
 		System.out.println(is.strStr("abc", "ab"));
 		System.out.println(is.strStr("abc", "bc"));
 		System.out.println(is.strStr("abc", "cd"));
 		System.out.println(is.strStr("abc", ""));
 		System.out.println(is.strStr("", ""));
+		*/
+		
+		SearchInsertPosition sip = new SearchInsertPosition();
+		int[] nums = {1,3,5,6};
+		int[] nums1 = {};
+		System.out.println(sip.searchInsert(nums, 0));
+		System.out.println(sip.searchInsert(nums, 2));
+		System.out.println(sip.searchInsert(nums, 5));
+		System.out.println(sip.searchInsert(nums, 7));
+		
+		System.out.println(sip.searchInsert(nums1, 0));
 		
 		
 	}
