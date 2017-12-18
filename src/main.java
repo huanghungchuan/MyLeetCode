@@ -45,6 +45,13 @@ public class main {
 		System.out.println(rd.removeDuplicates(test1));
 		*/
 		
+		ImplementStr is = new ImplementStr();
+		System.out.println(is.strStr("abc", "ab"));
+		System.out.println(is.strStr("abc", "bc"));
+		System.out.println(is.strStr("abc", "cd"));
+		System.out.println(is.strStr("abc", ""));
+		System.out.println(is.strStr("", ""));
+		
 		
 	}
 }
