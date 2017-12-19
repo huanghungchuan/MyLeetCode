@@ -74,7 +74,8 @@ public class main {
 		System.out.println(cas.countAndSay(3));
 		System.out.println(cas.countAndSay(4));
 		System.out.println(cas.countAndSay(5));
-		System.out.println(cas.countAndSay(6));
+		System.out.println(cas.countAndSay(10));
+		System.out.println(cas.countAndSay(25));
 		
 		
 	}
