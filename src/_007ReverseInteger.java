@@ -1,5 +1,5 @@
 
-public class ReverseInteger {
+public class _007ReverseInteger {
 	public int reverse(int x) {
 		try {
 			String s = new Integer(x).toString();

@@ -1,5 +1,5 @@
 
-public class ValidParentheses {
+public class _020ValidParentheses {
 	public boolean isValid(String s) {
 		char[] charArray = new char[s.length()];
 		int count = 0;

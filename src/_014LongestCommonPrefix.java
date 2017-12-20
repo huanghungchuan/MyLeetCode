@@ -1,7 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class LongestCommonPrefix {
+public class _014LongestCommonPrefix {
 	public String longestCommonPrefix(String[] strs) {
 		if (strs == null || strs.length == 0)
 			return "";

@@ -1,5 +1,5 @@
 
-public class SearchInsertPosition {
+public class _035SearchInsertPosition {
 	public int searchInsert(int[] nums, int target) {
 		/*Version 1, 6ms
 		for (int i = 0; i < nums.length; i++) {

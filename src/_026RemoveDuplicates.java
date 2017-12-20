@@ -1,5 +1,5 @@
 
-public class RemoveDuplicates {
+public class _026RemoveDuplicates {
 	public int removeDuplicates(int[] nums) {
 		int current = 0;
 		for (int i = 1; i < nums.length; i++) {

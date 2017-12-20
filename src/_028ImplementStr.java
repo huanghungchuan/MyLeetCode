@@ -1,5 +1,5 @@
 
-public class ImplementStr {
+public class _028ImplementStr {
 	public int strStr(String haystack, String needle) {
 		/*Version 1
 		 * 

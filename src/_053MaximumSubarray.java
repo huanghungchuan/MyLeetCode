@@ -1,5 +1,5 @@
 
-public class MaximumSubarray {
+public class _053MaximumSubarray {
 	public int maxSubArray(int[] nums) {
 		/*
 		 * Version 1 Go through every number one by one, then in set of two numbers,

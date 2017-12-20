@@ -1,5 +1,5 @@
 
-public class CountAndSay {
+public class _038CountAndSay {
 	public String countAndSay(int n) {
 		if (n == 1)
 			return "1";

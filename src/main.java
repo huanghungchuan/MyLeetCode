@@ -91,7 +91,7 @@ public class main {
 		System.out.println(ms.maxSubArray(nums2));
 		*/
 		
-		LengthOfLastWord lolw = new LengthOfLastWord();
+		_058LengthOfLastWord lolw = new _058LengthOfLastWord();
 		System.out.println(lolw.lengthOfLastWord(""));
 		System.out.println(lolw.lengthOfLastWord("abc"));
 		System.out.println(lolw.lengthOfLastWord("abc de"));
