@@ -79,6 +79,9 @@ public class main {
 		 * System.out.println(cas.countAndSay(3));
 		 * System.out.println(cas.countAndSay(4));
 		 */
+		
+		/*MaximumSubarray
+		 * 
 		MaximumSubarray ms = new MaximumSubarray();
 		int[] nums = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
 		System.out.println(ms.maxSubArray(nums));
@@ -86,6 +89,13 @@ public class main {
 		System.out.println(ms.maxSubArray(nums1));
 		int[] nums2 = { -2, -1 };
 		System.out.println(ms.maxSubArray(nums2));
+		*/
+		
+		LengthOfLastWord lolw = new LengthOfLastWord();
+		System.out.println(lolw.lengthOfLastWord(""));
+		System.out.println(lolw.lengthOfLastWord("abc"));
+		System.out.println(lolw.lengthOfLastWord("abc de"));
+		System.out.println(lolw.lengthOfLastWord("abc de  "));
 
 	}
 }
