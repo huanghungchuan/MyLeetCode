@@ -100,12 +100,18 @@ public class main {
 		System.out.println(lolw.lengthOfLastWord("abc de  "));
 		*/
 		
+		/*
 		_066PlusOne po = new _066PlusOne();
 		int[] digit1 = {9,8,7,6,5,4,3,2,1,0};
 		int[] ans1 = po.plusOne(digit1);
 		int i;
 		for(i = 0; i<ans1.length; i++)
-			System.out.print(ans1[i]);
+		System.out.print(ans1[i]);
+			
+		 */
+		
+		_067AddBinary ab = new _067AddBinary();
+		ab.addBinary("110", "100");
 
 	}
 }
