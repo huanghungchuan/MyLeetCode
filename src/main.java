@@ -110,8 +110,12 @@ public class main {
 			
 		 */
 		
+		/*
 		_067AddBinary ab = new _067AddBinary();
-		ab.addBinary("110", "100");
+		ab.addBinary("110", "100");*/
+		
+		_069Sqrt sqrt = new _069Sqrt();
+		System.out.println(sqrt.mySqrt(4));
 
 	}
 }
