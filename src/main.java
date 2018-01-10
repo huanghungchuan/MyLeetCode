@@ -112,10 +112,19 @@ public class main {
 		
 		/*
 		_067AddBinary ab = new _067AddBinary();
-		ab.addBinary("110", "100");*/
+		ab.addBinary("110", "100");
+		*/
 		
-		_069Sqrt sqrt = new _069Sqrt();
+		/*_069Sqrt sqrt = new _069Sqrt();
 		System.out.println(sqrt.mySqrt(4));
+		*/
+		
+		_070ClimbingStairs cs = new _070ClimbingStairs();
+		System.out.println(cs.climbStairs(0));
+		System.out.println(cs.climbStairs(1));
+		System.out.println(cs.climbStairs(2));
+		System.out.println(cs.climbStairs(3));
+		System.out.println(cs.climbStairs(10));
 
 	}
 }
